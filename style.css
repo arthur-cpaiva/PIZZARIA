@@ -26,6 +26,7 @@ nav {
     gap: 20px;
     font-weight: bold;
     font-size: 1.5em;
+    font-family: lobster two;
 }
 
 .links a {
@@ -38,11 +39,39 @@ nav {
     color: white;
 }
 
-.container{
-    justify-content: center;
+main {
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(158, 1, 1);
+    border-radius: 12px;
+    font-family: lobster two;
 }
 
-.carousel-item img{
-    width: 60%;
-    height: 20%;
+.texto h2{
+    margin: 10vh;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid;
+    font-weight: 700;
+    background-color: #290202;
+    color: white;
+    border-radius: 12px;
+}
+
+.texto p{
+    font-size: 1.4em;
+}
+
+#carousel {
+    border: 1px solid rgb(0, 0, 0.9);
+    border-radius: 12px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    object-fit: cover;
 }
