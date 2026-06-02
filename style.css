@@ -45,25 +45,31 @@ main {
     background-color: rgb(158, 1, 1);
     border-radius: 12px;
     font-family: lobster two;
+    color: white;
 }
 
-.texto h2{
-    margin: 10vh;
+h2 {
+    margin-top: 50px;
+    margin: 50px;
     text-align: center;
     padding: 50px;
-    border: 1px solid;
+    border: 2px solid rgb(255, 5, 5);
     font-weight: 700;
-    background-color: #290202;
     color: white;
     border-radius: 12px;
+    background-color: black;
+    font-family: lobster two;
 }
 
-.texto p{
-    font-size: 1.4em;
+.texto p {
+    font-size: 1.6em;
+    line-height: 1.6;
+    color: black;
+    margin-top: 2rem;
 }
 
 #carousel {
-    border: 1px solid rgb(0, 0, 0.9);
+    margin-top: 2rem;
     border-radius: 12px;
 }
 
@@ -71,7 +77,34 @@ main {
     width: 100%;
     height: 700px;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
     object-fit: cover;
+}
+
+.card {
+    background-color: #272829 !important;
+    color: white !important;
+    border: 2px solid yellow !important;
+}
+
+.card img {
+    width: 50%;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card-body h5{
+    font-size: 1.8rem;
+    text-align: center;
+    color: yellow;
+}
+
+.card-body p{
+    text-align: center;
+    margin: 0 8.8rem;
+    font-size: 1.1em;
 }
