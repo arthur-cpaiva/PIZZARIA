@@ -97,14 +97,68 @@ h2 {
     object-fit: cover;
 }
 
-.card-body h5{
+.card-body h5 {
     font-size: 1.8rem;
     text-align: center;
     color: yellow;
 }
 
-.card-body p{
+.card-body p {
     text-align: center;
     margin: 0 8.8rem;
     font-size: 1.1em;
+}
+
+.localizacao {
+    padding: 0 auto 0 80vh;
+    margin: 0 auto;
+    border-radius: 12px;
+    width: auto;
+    height: auto;
+}
+
+iframe {
+    width: 50vw;
+    height: 30vw;
+}
+
+.contato {
+    display: flex;
+    gap: 20px;
+}
+
+.texto-contato {
+    padding: 5vw 0 0 5vw;
+    justify-content: center;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+.card-imagem img {
+    width: 30vw;
+    box-shadow: 10px 10px 5px rgb(90, 32, 32);
+    border-radius: 12px;
+    border: 1px solid;
+    display: block;
+}
+
+.card-texto{
+    padding: 10vw 20vw;
+    border: 2px solid rgb(255, 5, 5);
+    font-weight: 700;
+    color: white;
+    border-radius: 12px;
+    background-color: black;
+    font-family: lobster two;
+    border: 1px solid;
 }
