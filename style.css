@@ -134,31 +134,83 @@ iframe {
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
-    gap: 40px;
     justify-content: flex-start;
-    align-items: center;
-    padding-left: 0;
-    margin-left: 0;
+    border: 1px solid rgb(255, 255, 57);
+    padding: 40px 60px;
+    background-color: black;
+    box-shadow: 10px 10px 50px rgb(253, 153, 153);
+    border-radius: 10px;
+    gap: 3rem;
 }
 
+
+.card-imagem {
+    flex: 0 0 40%;
+}
 
 .card-imagem img {
-    width: 30vw;
-    box-shadow: 10px 10px 5px rgb(90, 32, 32);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     border-radius: 12px;
-    border: 1px solid;
-    display: block;
 }
 
-.card-texto{
-    padding: 10vw 20vw;
-    border: 2px solid rgb(255, 5, 5);
-    font-weight: 700;
-    color: white;
-    border-radius: 12px;
-    background-color: black;
-    font-family: lobster two;
-    border: 1px solid;
+.card-texto {
+    gap: 0.75rem;
+    flex-grow: 1;
+}
+
+.card-texto p {
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contato {
+        flex-direction: column;
+    }
+
+    .localizacao{
+        margin: 0 auto; 
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .card-body p{
+     margin: 0 1rem;
+    }
+
+    .carousel-item img{
+        height: 250px;
+    }
+
+    h2{
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .texto-contato{
+        font-size: 1.2em;
+        padding: 20px;
+    }
 }
